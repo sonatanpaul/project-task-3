@@ -405,7 +405,7 @@
       </section>
 
       <!-- Offer Section Start  -->
-      <section class="container mx-auto mb-20 mt-20 px-3">
+      <section class="container mx-auto mb-120 md:mb-80 mt-20 px-3 relative">
         <h1 class="text-4xl font-semibold text-[#179800] mb-8">
           Arrival & Offers
         </h1>
@@ -433,7 +433,9 @@
           </div>
 
           <!-- second offer card  -->
-          <div class="flex items-center gap-8 bg-[#102861] rounded-xl p-8">
+          <div
+            class="flex items-center gap-8 bg-[#102861] rounded-xl py-8 px-3 md:px-8"
+          >
             <!-- card content  -->
             <div class="flex flex-col gap-6">
               <div><img src="./assets/india-gate-logo.png" alt="" /></div>
@@ -453,9 +455,82 @@
           </div>
         </div>
       </section>
+
+      <!-- Get Grocery News! Section Start  -->
+
+      <section
+        class="px-3 container mx-auto top-1000 sm:top-765 sm:left-4 lg:left-8 xl:left-44 absolute"
+      >
+        <div
+          class="bg-[#EFEBE3] rounded-xl md:flex justify-evenly items-center space-y-12 px-3 py-10"
+        >
+          <!-- images  -->
+          <div>
+            <img src="./assets/vegetable-busket.png" alt="" />
+          </div>
+          <!-- content  -->
+          <div class="space-y-5">
+            <h1
+              class="text-2xl font-semibold text-center md:text-left text-[#179800] md:text-black"
+            >
+              Get Grocery News!
+            </h1>
+            <p class="text-center">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <div class="bg-white p-3 rounded-lg">
+              <input type="text" placeholder="Enter Your Email...." />
+            </div>
+            <div class="text-center md:text-left">
+              <button
+                class="bg-[#179800] px-6 py-2 rounded-lg font-normal text-lg text-white"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer Section Start  -->
-    <footer></footer>
+    <footer class="bg-[#179800] px-5">
+      <div
+        class="container mx-auto grid md:grid-cols-3 space-y-8 items-end justify-between pt-90 md:pt-10 pb-20 md:h-[680px]"
+      >
+        <!-- logo section  -->
+        <div class="md:w-[430px] space-y-5">
+          <div>
+            <img src="./assets/logo-footer.png" alt="" />
+          </div>
+          <p class="text-white text-lg">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
+        </div>
+
+        <!-- footer link  -->
+        <div class="flex md:justify-center">
+          <ul class="text-white text-lg space-y-2 md:space-y-5">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+
+        <!-- social link  -->
+        <div class="flex md:justify-end">
+          <div class="text-white space-y-5 text-xl">
+            <h4>Follow Us</h4>
+            <div class="space-x-6">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
